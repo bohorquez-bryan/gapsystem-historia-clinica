@@ -4,6 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 // Rutas
 import { APP_ROUTING } from './app.routes';
 
+// Material
+import { MaterialModule} from './material.module';
+
 import { AppComponent } from './app.component';
 import { NabvarComponent } from './components/nabvar/nabvar.component';
 import { ButtonComponent } from './components/button/button.component';
@@ -24,7 +27,9 @@ import { ResumeComponent } from './pages/resume/resume.component';
   imports: [
     BrowserModule,
     APP_ROUTING,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
