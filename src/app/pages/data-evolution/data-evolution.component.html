@@ -1,28 +1,57 @@
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h3>Fecha Inicio de Digitación </h3>
-            <input type="date" id="" name="">
-        </div>
-        <div class="col">
-            <h3>Fecha de Atención Paciente </h3>
-            <input type="date" id="" name="">
-        </div>
-        <div class="col">
-            <h3>Fecha/Hora fin de Digitación </h3>
-            <input type="date" id="" name="">
-        </div>
-
+<div class="cards">
+    <div class="card">
+        <h3>Fecha Inicio de Digitación </h3>
+        <input type="date" id="" name="">
     </div>
-    <div class="row">
-        <mat-form-field appearance="fill">
-            <label></label>
-            <mat-label>Notas</mat-label>
-            <mat-select>
-              <mat-option value="one">Nota de Ingreso</mat-option>
-              <mat-option value="two">Nota de Egreso</mat-option>
-            </mat-select>
-          </mat-form-field>
+    <div class="card">
+        <h3>Fecha de Atención Paciente </h3>
+        <input type="date" id="" name="">
     </div>
-    
-</div>
+    <div class="card">
+        <h3>Fecha/Hora fin de Digitación </h3>
+        <input type="date" id="" name="">
+    </div>
+    <div class="card">
+            <mat-form-field appearance="fill">
+                <mat-label>Notas</mat-label>
+                <mat-select>
+                  <mat-option value="one">Nota de Ingreso</mat-option>
+                  <mat-option value="two">Nota de Evolución</mat-option>
+                  <mat-option value="three">Nota de Emergencia</mat-option>
+                  <mat-option value="four">Nota de Alta</mat-option>
+                  <mat-option value="five">Nota de Alcance</mat-option>
+                </mat-select>
+              </mat-form-field>
+        
+            
+        </div>
+    <div class="card">
+        <mat-label>Desgloce:</mat-label>
+        <section class="example-section">
+          <mat-checkbox class="example-margin" >S </mat-checkbox>
+          <mat-checkbox class="example-margin" >O </mat-checkbox>
+          <mat-checkbox class="example-margin" >A </mat-checkbox>
+          <mat-checkbox class="example-margin" >P </mat-checkbox>
+        </section></div>
+    <div class="card">
+        <h2>Medico</h2>
+        <button mat-icon-button aria-label="">
+            <mat-icon>add_circle</mat-icon>
+          </button>
+        <button mat-icon-button color="warn" aria-label="">
+            <mat-icon>delete</mat-icon>
+          </button>
+        <textarea disabled></textarea>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="texts-area">
+      <div class="txta">
+          <textarea></textarea>
+      </div>
+      <div class="txta">
+        <textarea></textarea>
+      </div>
+  </div>
+  

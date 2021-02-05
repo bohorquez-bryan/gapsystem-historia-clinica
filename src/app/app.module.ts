@@ -14,6 +14,8 @@ import { DataEvolutionComponent } from './pages/data-evolution/data-evolution.co
 import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './pages/resume/resume.component';
+import { DataPatientComponent} from './pages/data-patient/data-patient.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { ResumeComponent } from './pages/resume/resume.component';
     ButtonComponent,
     DataEvolutionComponent,
     HomeComponent,
-    ResumeComponent
+    ResumeComponent,
+    DataPatientComponent
   ],
   imports: [
     BrowserModule,
